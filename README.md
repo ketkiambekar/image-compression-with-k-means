@@ -2,7 +2,7 @@
 
 In this project, we will apply the K-means algorithm to lossy image compression, by reducing the number of colors used in an image.
 
-We have a small version (128, 128, 3) and a large version (512, 512, 3) of the same image. The said images are available on the github page and needs to be loaded to files section on the left before executing the notebook.
+We have a small version (128, 128, 3) and a large version (512, 512, 3) of the same image. The said images are available on this github page and need to be loaded to files section on the left before executing the notebook.
 
 Our original image is represented by 24-bit colors i.e. each pixel is represented by (2^8, 2^8, 2^8) RGB values.
 
