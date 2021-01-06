@@ -8,6 +8,6 @@ Our original image is represented by 24-bit colors i.e. each pixel is represente
 
 To compress the image, we will use K-means to reduce the image to k = 16 colors. More speciﬁcally, each pixel in the image is considered a point in the three-dimensional (r, g, b)-space. To compress the image, we will cluster these points in color-space into 16 clusters, and replace each pixel with the closest cluster centroid.
 
-
+<br><br>
 
 ![Results](/images/Result.jpg)
