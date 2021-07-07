@@ -25,7 +25,7 @@ def init_centroids(num_clusters, image):
         Randomly initialized centroids
     """
 
-    # *** START CODE HERE ***
+    
     H,W,C=image.shape
     #print(H,W,C)
     centroids=[]
@@ -43,7 +43,7 @@ def init_centroids(num_clusters, image):
         centroids.append(image[H_r,W_r])
         
     centroids_init=np.array(centroids)
-    # *** END CODE HERE ***
+
 
     return centroids_init
 
