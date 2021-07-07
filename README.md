@@ -1,6 +1,6 @@
 # image-compression-with-k-means
 
-In this project, we will apply the K-means algorithm to lossy image compression, by reducing the number of colors used in an image.
+In this project, we will apply the K-means algorithm to achieve lossy image compression, by reducing the number of colors used in an image.
 
 We have a small version (128, 128, 3) and a large version (512, 512, 3) of the same image. 
 Our original image is represented by 24-bit colors i.e. each pixel is represented by (2^8, 2^8, 2^8) RGB values.
