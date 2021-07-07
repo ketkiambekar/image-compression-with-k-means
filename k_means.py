@@ -69,7 +69,7 @@ def update_centroids(centroids, image, max_iter=30, print_every=10):
         Updated centroids
     """
 
-    # *** START CODE HERE ***
+
     max_iter=5
     H, W, C = image.shape
     cluster_info = np.zeros(shape=(H,W,1))
@@ -115,7 +115,7 @@ def update_centroids(centroids, image, max_iter=30, print_every=10):
             print('iteration {}: Centroids are {} '.format(m,centroids))
 
 
-    # *** END CODE HERE ***
+
 
     return new_centroids
 
@@ -138,7 +138,6 @@ def update_image(image, centroids):
         Updated image
     """
 
-    # *** START CODE HERE ***
     H, W, C = image.shape
 
     for i in range (0, H):
@@ -150,7 +149,7 @@ def update_image(image, centroids):
             
             image[i][j]= centroids[int(np.argmin(dist, axis=0))]
 
-    # *** END CODE HERE ***
+
     print(type(image))
 
     return image
